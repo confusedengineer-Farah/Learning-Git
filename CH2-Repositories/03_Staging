@@ -1,0 +1,13 @@
+
+Staging 
+
+    After your .md file we saw, it's untracked. We need to stage it with the git add command before committing it later.
+
+    Without staging, no files are included in the commit – only the files you explicitly git add will be committed.
+
+
+    Here's the command:
+        git add <path-to-file OR pattern>
+
+        For example:
+            git add i-use-arch.btw
