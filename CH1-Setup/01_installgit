@@ -1,0 +1,34 @@
+Install Git
+
+Git is a command-line tool
+
+Note that this course requires a relatively recent version of Git – 2.46.0 or later! It's a good idea to keep Git up-to-date, anyway, since new versions often include fixes for bugs and vulnerabilities, new features, and performance improvements.
+
+Assignment
+
+First, check whether you have Git installed already, and if so, which version. Open a terminal and type:
+
+git version
+
+
+Otherwise, you'll need to install Git. The official docs site offers helpful installation instructions. You can also refer to our hints below, but whatever other distro you may be using, we have faith in you to find a way of installing Git 2.46+.
+
+
+Linux / Windows (WSL)
+
+    We recommend using Homebrew to keep Git (and other command-line tools) up-to-date:
+
+    sudo apt update
+    sudo apt install software-properties-common # enables add-apt-repository command
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt update
+    sudo apt install git
+
+
+macOS
+
+        We recommend using Homebrew to keep Git (and other command-line tools) up-to-date:
+
+
+        brew update
+        brew install git
